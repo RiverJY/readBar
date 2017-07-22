@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#9AC0CD</item>
+        <item name="colorPrimaryDark">#9AC0CD</item>
+        <item name="colorAccent">#9AC0CD</item>
+        <!-- 深红色：R=254 G=67 B=101 FE4365
+            浅红色：R=252 G=157 B=154 FE9D9A
+            浅黄色：R=249 G=205 B=173 F9CDAD
+            浅青色：R=200 G=200 B=169 C8C8A9
+            淡青色：R=131 G=175 B=155 83AF9B
+            淡蓝色：9AC0CD
+            淡米色：#F5F5DC-->
+    </style>
+</resources>

@@ -1,0 +1,283 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout0"
+        android:layout_width="fill_parent"
+        android:background="#9AC0CD"
+        android:layout_height="50dp"
+        android:paddingBottom="5dp">
+
+
+        <ImageView
+            android:id="@+id/mainactivity_btn_search"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="8dp"
+            android:layout_centerVertical="true"
+            android:background="#00000000"
+            android:src="@drawable/search" />
+
+        <TextView
+            android:id="@+id/mainactivity_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="排行榜"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp" />
+
+
+        <ImageView
+            android:id="@+id/mainactivity_btn_user"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:background="#00000000"
+            android:src="@drawable/userw" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#80FFFFFF"
+        android:layout_marginBottom="5dp"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_height="40dp">
+
+        <HorizontalScrollView android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:scrollbarAlwaysDrawHorizontalTrack="false"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/mainactivity_btn_mrank"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:adjustViewBounds="true"
+            android:minHeight="30dp"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="综合"
+            android:onClick="mix"
+            android:textColor="#666666"
+            android:background="#80FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/mainactivity_btn_amazonrank"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/mainactivity_btn_mrank"
+            android:layout_toRightOf="@+id/mainactivity_btn_mrank"
+            android:adjustViewBounds="true"
+            android:minHeight="30dp"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="亚马逊"
+            android:onClick="Amazon"
+            android:textColor="#666666"
+            android:background="#80FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/mainactivity_btn_ddrank"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/mainactivity_btn_amazonrank"
+            android:adjustViewBounds="true"
+            android:minHeight="30dp"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="当当"
+            android:onClick="Dangdang"
+            android:textColor="#666666"
+            android:background="#80FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/mainactivity_btn_jdrank"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/mainactivity_btn_ddrank"
+            android:adjustViewBounds="true"
+            android:minHeight="30dp"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="京东"
+            android:onClick="Jingdong"
+            android:textColor="#666666"
+            android:background="#80FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/mainactivity_btn_prank"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:adjustViewBounds="true"
+            android:minHeight="30dp"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="个性化"
+            android:onClick="personal"
+            android:textColor="#666666"
+            android:background="#80FFFFFF"
+            android:textSize="18sp" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#9AC0CD" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:weightSum="4"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/mainactivity_btn_dayrank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout3"
+            android:adjustViewBounds="true"
+            style="?android:attr/buttonBarButtonStyle"
+            android:onClick="daily"
+            android:minHeight="25dp"
+            android:layout_weight="1"
+            android:textColor="#666666"
+            android:background="#80FFFFFF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/mainactivity_btn_monthrank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mainactivity_btn_mrank"
+            android:layout_toRightOf="@+id/linearLayout3"
+            android:adjustViewBounds="true"
+            style="?android:attr/buttonBarButtonStyle"
+            android:onClick="monthly"
+            android:minHeight="25dp"
+            android:layout_weight="1"
+            android:textColor="#666666"
+            android:background="#80FFFFFF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/mainactivity_btn_hotrank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout3"
+            android:adjustViewBounds="true"
+            style="?android:attr/buttonBarButtonStyle"
+            android:onClick="hot"
+            android:minHeight="25dp"
+            android:layout_weight="1"
+            android:textColor="#666666"
+            android:background="#80FFFFFF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/mainactivity_btn_newrank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mainactivity_btn_mrank"
+            android:layout_toRightOf="@+id/linearLayout3"
+            android:adjustViewBounds="true"
+            style="?android:attr/buttonBarButtonStyle"
+            android:onClick="newq"
+            android:minHeight="25dp"
+            android:layout_weight="1"
+            android:textColor="#666666"
+            android:background="#80FFFFFF"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#9AC0CD" />
+    <View
+        android:layout_width="250dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="1dip"
+        android:layout_marginTop="1dp"
+        android:background="#9AC0CD" />
+    <View
+        android:layout_width="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="1dip"
+        android:layout_marginTop="1dp"
+        android:background="#9AC0CD" />
+    <View
+        android:layout_width="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="1dip"
+        android:layout_marginTop="1dp"
+        android:background="#9AC0CD" />
+    <View
+        android:layout_width="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="1dip"
+        android:layout_marginTop="1dp"
+        android:background="#9AC0CD" />
+    <View
+        android:layout_width="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="1dip"
+        android:layout_marginTop="1dp"
+        android:background="#9AC0CD" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="7dp">
+
+    <ListView
+        android:id="@+id/lvMember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="@android:color/transparent" />
+
+        <TextView
+            android:id="@+id/emptyElement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23sp"/>
+</FrameLayout>
+</LinearLayout>

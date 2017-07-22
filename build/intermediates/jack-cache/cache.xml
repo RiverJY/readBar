@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\婧懿\.android\build-cache\92d2992b185b72b4fb40aa1fc66c9408337748d4\output\jars\classes.jar"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\readBar\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-8733156ad2d0ee9d68baf293624d82d91f11892a.jar" />
+    </item>
+    <item
+        jar="C:\Users\婧懿\.android\build-cache\a59681b91e7a454c05297d5883fe442602801ff7\output\jars\classes.jar"
+        revision="26.0.0"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="E:\readBar\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-7f5a93594d98e2c4768ee6b59fa04d4853ea78a4.jar" />
+    </item>
+    <item
+        jar="E:\readBar\app\lib\org.restlet.jar"
+        revision="26.0.0"
+        sha1="3c5b2c8325c1107600c43ef12d055a597183f836">
+        <dex dex="E:\readBar\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\org.restlet-de4e4632f7875bb9a38faa6d97c9a0959b4e7bd4.jar" />
+    </item>
+    <item
+        jar="C:\Users\婧懿\.android\build-cache\239d38cf4146dad13d25096ba5f3c60095522465\output\jars\classes.jar"
+        revision="26.0.0"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="E:\readBar\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-9381cc95c0f6ccdc1334a2b93452dfc0eaf84f42.jar" />
+    </item>
+    <item
+        jar="C:\Users\婧懿\.android\build-cache\1340287f1d12ccc4d99645e8b36ac76de9fcd387\output\jars\classes.jar"
+        revision="26.0.0"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="E:\readBar\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-2e7f081ab5993d7b77ecbb771194b17eb553a1c6.jar" />
+    </item>
+    <item
+        jar="C:\Users\婧懿\.android\build-cache\705b358faffb40a3c7dd9f7cd2b627e8da7d44ba\output\jars\classes.jar"
+        revision="26.0.0"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="E:\readBar\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-1dbe8fb68bcae05d3bc1aa6ee83ec3ac509cd734.jar" />
+    </item>
+    <item
+        jar="C:\Apps\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        revision="26.0.0"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="E:\readBar\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\support-annotations-26.0.0-alpha1-7d27ab0e38f0b3822511b2e8dc1991596d007561.jar" />
+    </item>
+    <item
+        jar="E:\readBar\app\lib\com.thoughtworks.xstream.jar"
+        revision="26.0.0"
+        sha1="bce3282142b63068260f021fcbe48b72e8d71a1a">
+        <dex dex="E:\readBar\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\com.thoughtworks.xstream-c633a95f6166ca85d68d62bfdce554047880d92d.jar" />
+    </item>
+    <item
+        jar="C:\Users\婧懿\.android\build-cache\85b71a4d6eee548821d6cf233ebc003bbead90a6\output\jars\classes.jar"
+        revision="26.0.0"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="E:\readBar\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-fb4484dbe71291fce7bd5583205658040122b913.jar" />
+    </item>
+    <item
+        jar="C:\Users\婧懿\.android\build-cache\417bb802d7b5e10a23e7fc8a2b5566a088ddb485\output\jars\classes.jar"
+        revision="26.0.0"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="E:\readBar\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-29ef990ca8bcc8a04ae055363438d8b56c9258c2.jar" />
+    </item>
+    <item
+        jar="C:\Users\婧懿\.android\build-cache\23b651e207098a4c4bab401bc97194e7d82a19e8\output\jars\classes.jar"
+        revision="26.0.0"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="E:\readBar\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-52cd313ce6a1da090375a00dcfd941cefea756d1.jar" />
+    </item>
+    <item
+        jar="C:\Users\婧懿\.android\build-cache\c12c2e8a4f934f1c5b40082cddcd3b584df02dea\output\jars\classes.jar"
+        revision="26.0.0"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="E:\readBar\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-92a39ad49e470ec23a61e406f2ce38895b925860.jar" />
+    </item>
+
+</items>
